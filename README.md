@@ -2,6 +2,7 @@
 Projeto de ALU (Unidade Lógica e Aritmética) em VHDL
 
 🔍 Visão Geral
+
 Este projeto implementa uma Unidade Lógica e Aritmética (ULA) em VHDL, capaz de realizar operações matemáticas e lógicas entre dois números de 4 bits. O sistema foi desenvolvido para ser implementado em uma FPGA, com entradas via switches e saídas em displays de 7 segmentos e LEDs. Capaz de executar as seguintes operações:
 
 Operações Aritméticas:
@@ -12,6 +13,7 @@ Operações Aritméticas:
 
 -Multiplicação (MUL) de 2 bits 
 
+---------------------------------
 
 Operações Lógicas:
 
@@ -21,6 +23,7 @@ Operações Lógicas:
 
 -NOT (negação)
 
+---------------------------------
 
 Comparação:
 
@@ -32,6 +35,8 @@ Comparação:
 
 
 A ALU é controlada por um sinal de 3 bits (ALUOp) que seleciona a operação desejada e gera flags de status (Zero, Overflow, CarryOut).
+
+---------------------------------
 
 🛠️ Estrutura do Projeto
 O projeto é organizado em componentes modulares, incluindo:
@@ -48,6 +53,7 @@ O projeto é organizado em componentes modulares, incluindo:
 
 -projeto_ALU.vhd - Arquivo principal que integra todos os módulos
 
+---------------------------------
 
 🎯 Funcionalidades:
 
